@@ -15,6 +15,26 @@
 ![badge][badge-jupyter]
 ![badge][badge-python]
 ![badge][badge-numpy]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Skills
 ### Languages
 ![Python Badge](https://img.shields.io/badge/-Python-blue?style=flat&logo=Python&logoColor=white)

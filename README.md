@@ -41,6 +41,10 @@
 ![GCP Badge](https://img.shields.io/badge/-GCP-blue?style=flat&logo=googlecloud&logoColor=white)
 ![AWS Badge](https://img.shields.io/badge/-AWS-blue?style=flat&logo=amazonaws&logoColor=white)
 
+[![Linkedin Badge](https://img.shields.io/badge/-mawady-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mawady/)](https://www.linkedin.com/in/mawady/)
+[![Website Badge](https://img.shields.io/badge/-website-47CCCC?style=flat&logo=Google-Chrome&logoColor=white&link=https://mawady.github.io)](https://mawady.github.io)
+[![Google Scholar Badge](https://img.shields.io/badge/-googlescholar-47CCCC?style=flat&logo=googlescholar&logoColor=white&link=[https://mawady.github.io](https://scholar.google.com/citations?user=EcmimJEAAAAJ&hl=en))](https://scholar.google.com/citations?user=EcmimJEAAAAJ&hl=en)
+[![Twitter Badge](https://img.shields.io/badge/-@mawady-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/mawady)](https://twitter.com/mawady)  
 
 
 # Social

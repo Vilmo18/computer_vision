@@ -10,6 +10,11 @@
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JMFeywqofESA3xzLLE_6p4rj-pQDlaSq?authuser=2#scrollTo=DgdgWoEnO7Ru)
 
+
+
+![badge][badge-jupyter]
+![badge][badge-python]
+![badge][badge-numpy]
 ## Skills
 ### Languages
 ![Python Badge](https://img.shields.io/badge/-Python-blue?style=flat&logo=Python&logoColor=white)

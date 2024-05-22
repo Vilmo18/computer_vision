@@ -12,27 +12,6 @@
 
 
 
-![badge][badge-jupyter]
-![badge][badge-python]
-![badge][badge-numpy]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Skills

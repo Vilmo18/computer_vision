@@ -11,16 +11,15 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iMdmxQdvM0hzFv-JPlq6xwjvTENsrvKi?usp=sharing)
 
 
+# Training Basic CNNs from Scratch
 
-# Training basic CNNs from scratch 
+The primary goal is to explore various neural network architectures to solve the classification problem on the CIFAR-10 dataset.
 
-The main idea is to investigate in various architecture of NN to solve the classification problem on the CIFAR-10 dataset.
-
-- As we see ANN are not adapted for this kind of problem witth we can notice the very bad performance
-- Between the model 1 and model 2 we notice a very improvement of the result is still bad and the model goes to overfitting more fastly
-- To reduce this problem of overfitting we've added a dropout layer and we can notice a very good result
-- For the model 4, we still try to accelerate the convergence of the model with batchNormalisation and and an adaptative learning rate
-- For the model 5, we increase the depth of the network to help the model to capture more detail and we added some regularizer at each layer
+- **Initial Attempts with ANN:** We observed very poor performance, indicating that ANNs are not suitable for this type of problem.
+- **Model 1(CONV2D + MaxPool) vs. Model 2(CONV2D + CONV2D + MaxPool):** There was a significant improvement in results between these models, although Model 2 still overfitted quickly.
+- **Model 3 (Introducing Dropout):** Adding a dropout layer effectively mitigated overfitting and yielded significantly better results.
+- **Model 4 (Batch Normalization and Adaptive Learning Rate):** These additions helped accelerate model convergence.
+- **Model 5 (Increased Depth and Regularization):** Increasing the network depth allowed the model to capture more details. Additionally, regularizers at each layer further enhanced performance.
 
 <p align="center">
   <img src="images/summary_investigation_cnn.png" alt="train" width="800"/>

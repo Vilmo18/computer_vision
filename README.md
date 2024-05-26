@@ -23,7 +23,7 @@ The main idea is to investigate in various architecture of NN to solve the class
 - For the model 5, we increase the depth of the network to help the model to capture more detail and we added some regularizer at each layer
 
 <p align="center">
-  <img src="images/summary_investigation_cnn.png" alt="train" width="400"/>
+  <img src="images/summary_investigation_cnn.png" alt="train" width="800"/>
 </p>
 
 

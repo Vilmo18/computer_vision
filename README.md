@@ -30,14 +30,14 @@ The model 5 (best) is the improvement of all of the other model get  a very good
 
 ## Training  vs Classification with transfer learning
 
-For the next, we want to get more best result and we will not transfert learning. We will use **InceptionResNetV2** as pretrained model because it strikes a balance between complexity and performance. After we fine tuned the model
+For the next phase, we aim to achieve better results without transfer learning. We will use InceptionResNetV2 as a pre-trained model because it strikes a balance between complexity and performance. 
 
 $$
 \begin{array}{| l | c | r |}
   \hline
   \text{Model Configuration } & \text{Training Time(seconds)} & \text{Test Accuracy} & \text{F1-score} \\
   \hline
-  \text{Best Model from Problem 1 (Model 5)} & \text{11 min 31 s} & \text{0.88} & \text{0.88}\\
+  \text{Best Model from scratch (Model 5)} & \text{11 min 31 s} & \text{0.88} & \text{0.88}\\
   \text{New Model (Frozen Convolutional Base)} & \text{02 h 14 min 10 s} & \text{0.93} & \text{0.93}\\
   \text{Fine-tuned Model} & \text{02 h 57 min 49 s} & \text{0.93} & \text{0.93}\\
   \hline
@@ -50,13 +50,18 @@ Globally,
 
 # Input masking
 
+We investigate on  pretrained model are focussing on the image regions containing the most important features map.
+This idea has been used by Zeiler and Fergus(2013); see section 4.2 and figure 7d of their paper available here: \href{https://arxiv.org/abs/1311.2901}
+
+One simple approach is to systematically occlude portions of a correctly classified image, and noting how the output probability of the correct class changes. The result is a “saliency map” of the image, that we can visualisefor an indication of what the CNN might be focussing on.
+For this task, we choose VGG16.
+
+<p align="center">
+  <img src="images/saliency_map.png" alt="train" width="500"/>
+</p>
 
 # Social
 
-[![Linkedin Badge](https://img.shields.io/badge/-mawady-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mawady/)](https://github.com/Vilmo18)
-[![Twitter Badge](https://img.shields.io/badge/-@mawady-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/mawady)](https://x.com/c_vilmorin)  
-
-
-[![vilmo18](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/yvan-carré-8230442b1)
+[![vilmo18](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vilmo18)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/yvan-carré-8230442b1/)
 

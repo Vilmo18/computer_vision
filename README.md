@@ -37,9 +37,9 @@ $$
   \hline
   \text{Model Configuration } & \text{Training Time(seconds)} & \text{Test Accuracy} & \text{F1-score} \\
   \hline
-  \text{Best Model from scratch (Model 5)} & \text{11 min 31 s} & \text{0.88} & \text{0.88}\\
-  \text{New Model (Frozen Convolutional Base)} & \text{02 h 14 min 10 s} & \text{0.93} & \text{0.93}\\
-  \text{Fine-tuned Model} & \text{02 h 57 min 49 s} & \text{0.93} & \text{0.93}\\
+  \text{Best Model from scratch (Model 5)} & \text{11 min 31 s} & \textbf{0.88} & \textbf{0.88}\\
+  \text{New Model (Frozen Convolutional Base)} & \text{02 h 14 min 10 s} & \textbf{0.93} & \textbf{0.93}\\
+  \text{Fine-tuned Model} & \text{02 h 57 min 49 s} & \textbf{0.93} & \textbf{0.93}\\
   \hline
 \end{array}
 $$

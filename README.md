@@ -57,8 +57,8 @@ One simple approach is to systematically occlude portions of a correctly classif
 For this task, we choose VGG16.
 
 <p align="center">
-  <img src="images/saliency_map.png" alt="train" width="400"/>
-  <img src="images/saliency_map_dog_cat.png" alt="train" width="400"/>
+  <img src="images/saliency_map.png" alt="train" width="300"/>
+  <img src="images/saliency_map_dog_cat.png" alt="train" width="300"/>
 </p>
 
 # Social

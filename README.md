@@ -51,7 +51,7 @@ Globally,
 # Input masking
 
 We investigate on  pretrained model are focussing on the image regions containing the most important features map.
-This idea has been used by Zeiler and Fergus(2013); see section 4.2 and figure 7d of their paper available here: \href{https://arxiv.org/abs/1311.2901}
+This idea has been used by Zeiler and Fergus(2013); see section 4.2 and figure 7d of their paper available here: https://arxiv.org/abs/1311.2901
 
 One simple approach is to systematically occlude portions of a correctly classified image, and noting how the output probability of the correct class changes. The result is a “saliency map” of the image, that we can visualisefor an indication of what the CNN might be focussing on.
 For this task, we choose VGG16.

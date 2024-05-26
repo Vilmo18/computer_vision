@@ -11,7 +11,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iMdmxQdvM0hzFv-JPlq6xwjvTENsrvKi?usp=sharing)
 
 
-# Training Basic CNNs from Scratch
+## Training Basic CNNs from Scratch
 
 The primary goal is to explore various neural network architectures to solve the classification problem on the CIFAR-10 dataset.
 
@@ -25,8 +25,28 @@ The primary goal is to explore various neural network architectures to solve the
   <img src="images/summary_investigation_cnn.png" alt="train" width="800"/>
 </p>
 
+### Evaluation 
+The model 5 (best) is the improvement of all of the other model get  a very good average accuracy of **88%** and average F1-score **88%**
 
-# Classification with transfer learning
+## Training  vs Classification with transfer learning
+
+For the next, we want to get more best result and we will not transfert learning. We will use **InceptionResNetV2** as pretrained model because it strikes a balance between complexity and performance. After we fine tuned the model
+
+$$
+\begin{array}{| l | c | r |}
+  \hline
+  \text{Model Configuration } & \text{Training Time(seconds)} & \text{Test Accuracy} & \text{F1-score} \\
+  \hline
+  \text{Best Model from Problem 1 (Model 5)} & \text{11 min 31 s} & \text{0.88} & \text{0.88}\\
+  \text{New Model (Frozen Convolutional Base)} & \text{02 h 14 min 10 s} & \text{0.93} & \text{0.93}\\
+  \text{Fine-tuned Model} & \text{02 h 57 min 49 s} & \text{0.93} & \text{0.93}\\
+  \hline
+\end{array}
+$$
+
+Globally,
+- Performance with Transfert learning and Fine Tuning is better than the scratch model
+- Training model with transfert learning take more time because the size of the image is increasing so more computation cost
 
 # Input masking
 

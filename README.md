@@ -14,6 +14,16 @@
 
 The primary goal is to explore various neural network architectures to solve the classification problem on the CIFAR-10 dataset.
 
+### Visualisation of the dataset
+
+To visualise our dataset and a better understanding we use t-SNE for reduce the dimensionality and K-Means for create cluster 
+
+<p align="center">
+  <img src="images/visualize.png" alt="train" width="500"/>
+</p>
+
+### Investagation
+
 - **Initial Attempts with ANN:** We observed very poor performance, indicating that ANNs are not suitable for this type of problem.
 - **Model 1(CONV2D + MaxPool) vs. Model 2(CONV2D + CONV2D + MaxPool):** There was a significant improvement in results between these models, although Model 2 still overfitted quickly.
 - **Model 3 (Introducing Dropout):** Adding a dropout layer effectively mitigated overfitting and yielded significantly better results.

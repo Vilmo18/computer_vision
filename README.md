@@ -74,5 +74,5 @@ For this task, we choose VGG16.
 
 [![vilmo18](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vilmo18)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/yvan-carré-8230442b1/)
-[![X](https://img.shields.io/badge/X-000?style=for-the-badge&logo=x)](https://x.com/c_vilmorin)
+[![X](https://img.shields.io/badge/X-000?style=for-the-badge&logo=)](https://x.com/c_vilmorin)
 

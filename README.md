@@ -16,10 +16,10 @@ The primary goal is to explore various neural network architectures to solve the
 
 ### Visualisation of the dataset
 
-To visualise our dataset and a better understanding we use t-SNE for reduce the dimensionality and K-Means for create cluster 
+To better understand our training dataset, we use t-SNE for dimensionality reduction and K-Means for clustering.
 
 <p align="center">
-  <img src="images/visualize.png" alt="train" width="500"/>
+  <img src="images/visualize.png" alt="train" width="300"/>
 </p>
 
 ### Investagation

@@ -54,8 +54,8 @@ $$
 $$
 
 Globally,
-- Performance with Transfert learning and Fine Tuning is better than the scratch model
-- Training model with transfert learning take more time because the size of the image is increasing so more computation cost
+- Performance with Transfert learning and Fine Tuning is better than the scratch model.
+- Training model with transfert learning take more time because the size of the image is increasing so more computation cost.
 
 # Input masking
 

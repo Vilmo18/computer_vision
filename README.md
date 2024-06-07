@@ -9,7 +9,6 @@
 ![GCP Badge](https://img.shields.io/badge/-GCP-blue?style=flat&logo=googlecloud&logoColor=white)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iMdmxQdvM0hzFv-JPlq6xwjvTENsrvKi?usp=sharing)
 
-
 ## Training Basic CNNs from Scratch
 
 The primary goal is to explore various neural network architectures to solve the classification problem on the CIFAR-10 dataset.
@@ -25,7 +24,7 @@ To better understand our training dataset, we use t-SNE for dimensionality reduc
 ### Investagation
 
 - **Initial Attempts with ANN:** We observed very poor performance, indicating that ANNs are not suitable for this type of problem.
-- **Model 1(CONV2D + MaxPool) vs. Model 2(CONV2D + CONV2D + MaxPool):** There was a significant improvement in results between these models, although Model 2 still overfitted quickly.
+- **Model 1 (CONV2D + MaxPool) vs. Model 2(CONV2D + CONV2D + MaxPool):** There was a significant improvement in results between these models, although Model 2 still overfitted quickly.
 - **Model 3 (Introducing Dropout):** Adding a dropout layer effectively mitigated overfitting and yielded significantly better results.
 - **Model 4 (Batch Normalization and Adaptive Learning Rate):** These additions helped accelerate model convergence.
 - **Model 5 (Increased Depth and Regularization):** Increasing the network depth allowed the model to capture more details. Additionally, regularizers at each layer further enhanced performance.
